@@ -1,0 +1,70 @@
+/* Mixins */
+=border-radius($r)
+	-webkit-border-radius: $r;
+	-moz-border-radius: $r;
+	-ms-border-radius: $r;
+	border-radius: $r;
+
+*
+	top: 0
+	margin: 0
+	padding: 0
+
+/* Variables */
+$tab: 15px
+$padding: 10px
+
+#menu
+	z-index: 1
+	background-color: #ccc
+	position: fixed
+	height: 100%
+	width: 20%
+	font-size: 16px
+	/* +border-radius(10px) /* mixin call */
+
+	span
+		padding: $padding
+		letter-spacing: 2px
+		font-size: 18px
+		color: white
+		font-family: Helvetica,Arial
+		font-weight: bold
+		display: block
+		
+	
+a
+	padding: $padding ($tab + $padding)
+	display: block
+	color: white
+	text-decoration: none
+	letter-spacing: 2px
+	font-family: Helvetica,Arial
+	
+
+#show-view
+	z-index: 1
+	position: fixed
+	right: 0
+	height: 100%
+	width: 80%
+	h1
+		padding: $padding $tab+$padding
+		font-weight: bold
+		color: #DDD
+	h2
+		@extend h1
+		padding: 0 (2*$tab)+$padding
+
+#selected-view
+	height: 100%
+	width: 100%
+	z-index: 2
+
+	
+	
+	
+	
+
+
+

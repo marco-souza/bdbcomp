@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Views on D3 Plus+AngularJS</title>
+
+	<!-- Dependences here -->
+	<script src="js/angular/angular.js"></script>
+		<!-- Modules -->
+		<script src="js/app.js"></script>
+
+		<!-- Controllers -->
+		<script src="js/controllers/viewController.js"></script>
+		
+		<!-- Directives -->
+
+	<script src="js/d3/d3.js"></script>
+		<script src="js/d3plus/d3plus.js"></script>
+
+	<!-- Style -->
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body ng-app="view">
+
+	<div id="page" ng-controller="viewController">
+	
+		<div id="menu">
+			<span>Select a view: </span>
+			<a class="view" href="" ng-repeat="item in allViews" ng-click="chooseView($index)">{{ item.name }}</a>
+		</div>
+
+		<div id="show-view">
+			<h1>{{ allViews[selected].name }}</h1>
+			<h2>{{ allViews[selected].description }}</h2>
+			<div id="selected-view"></div>
+		</div>
+
+	</div>
+	
+</body>
+</html>

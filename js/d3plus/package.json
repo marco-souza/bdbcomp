@@ -1,0 +1,104 @@
+{
+  "name": "d3plus",
+  "version": "1.7.4",
+  "description": "Data visualization made easy. A javascript library that extends the popular D3.js to enable fast and beautiful visualizations.",
+  "main": "src/init.coffee",
+  "devDependencies": {
+    "browserify": "^10.2.4",
+    "coffee-script": "^1.9.3",
+    "coffeeify": "^1.1.0",
+    "event-stream": "^3.3.1",
+    "gulp": "^3.9.0",
+    "gulp-chmod": "^1.2.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-duration": "^0.0.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rimraf": "^0.1.1",
+    "gulp-streamify": "^0.0.5",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.5",
+    "gulp-yuidoc": "^0.1.2",
+    "require-dir": "^0.3.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexandersimoes/d3plus.git"
+  },
+  "keywords": [
+    "charts",
+    "d3",
+    "d3plus",
+    "data",
+    "visualization"
+  ],
+  "author": {
+    "name": "Dave Landry",
+    "email": "landry.dave@gmail.com",
+    "url": "http://www.dave-landry.com"
+  },
+  "contributors": [
+    {
+      "name": "Alexander Simoes",
+      "email": "alexandersimoes@gmail.com",
+      "url": "http://www.alexandersimoes.com"
+    },
+    {
+      "name": "Daniel Smilkov",
+      "email": "dsmilkov@gmail.com",
+      "url": "http://smilkov.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexandersimoes/d3plus/issues",
+    "email": "landry.dave@gmail.com"
+  },
+  "homepage": "http://www.d3plus.org",
+  "dependencies": {
+    "d3": "^3.5.5",
+    "heap": "^0.2.6",
+    "numeric": "^1.2.6",
+    "simplify-js": "^1.2.1",
+    "static-kdtree": "^1.0.1",
+    "topojson": "^1.6.19"
+  },
+  "filename": "d3plus.min.js",
+  "npmName": "d3plus",
+  "npmFileMap": [
+    {
+      "basePath": "/",
+      "files": [
+        "d3plus.full.js",
+        "d3plus.full.min.js",
+        "d3plus.js",
+        "d3plus.min.js"
+      ]
+    }
+  ],
+  "gitHead": "04f0a607372b504ab3a38e622ba8fd2586305f99",
+  "_id": "d3plus@1.7.4",
+  "scripts": {},
+  "_shasum": "dbd1ed765d5e884fb7f229efedc1d153de40607e",
+  "_from": "d3plus@*",
+  "_npmVersion": "2.7.5",
+  "_nodeVersion": "0.12.2",
+  "_npmUser": {
+    "name": "davelandry",
+    "email": "landry.dave@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "davelandry",
+      "email": "landry.dave@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "dbd1ed765d5e884fb7f229efedc1d153de40607e",
+    "tarball": "http://registry.npmjs.org/d3plus/-/d3plus-1.7.4.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/d3plus/-/d3plus-1.7.4.tgz"
+}
